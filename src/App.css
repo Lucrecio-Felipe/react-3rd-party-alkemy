@@ -1,0 +1,525 @@
+#homeIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_fields{
+    display: block; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+.material-icons.xs-36 { font-size: 36px; }
+.material-icons.xs-25 { font-size: 25px; }
+.material-icons.xs-18 { font-size: 18px; }
+
+#rowNavbar{
+    width: 100%;
+}
+
+#heroListContainer{
+    margin: 90px auto;
+    animation-duration: 1.5s;
+    animation-name: show;
+}
+
+@keyframes show{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.img_hero{
+    height: 35vh;
+    width: 15vw;
+    margin: 10px auto;
+}
+
+.containerHero{
+    width: 60%;
+    margin: 10px 0 10px 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchItem{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#textHelper{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#detailContainer{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1s;
+    animation-name: show;
+}
+
+#detail{
+    margin: 80px 0;
+    background-color: rgb(216, 216, 216);
+}
+
+#imgHeroDetail{
+    width: 100%;
+    height: 100%;
+}
+
+#buttonHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: -20px 0 40px 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.large_font{
+    font-size: 1.15rem;
+}
+
+#searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleSearchContainer{
+    text-align: center;
+}
+
+.searcher{
+    width: 80%;
+}
+
+.form_alert{
+    color: red;
+    padding: 8px;
+}
+
+#searchIcon{
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.delete_button{
+    margin: 10px 30px 0 10px;
+}
+
+.detail_button{
+    margin-top: 10px;
+    width: 9vw;
+}
+
+#powerstatsTotal{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#titlePowerstats{
+    font-size: 1.5rem;
+}
+
+#subtitle{
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+#emptyTeam{
+    width: 60vw;
+    padding: 15px;
+    text-align: justify;
+    border: solid 1px black;
+    border-radius: 1rem;
+    margin: 60px auto;
+    font-size: 1.3rem;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #28b3d6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #28afd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.good, .neutral{
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bad{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d42439, #ff5569);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d42439, #ff5569); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#footer{
+    height: 8vh;
+    text-align: center;
+}
+
+#footer *{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#notFound{
+    font-size: 1.3rem;
+    width: 80vw;
+    margin: 20vh auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#loginCard {
+    height: 88vh;
+    width: 30vw;
+    margin: auto;
+    border: black 1px solid;
+}
+
+#loginTitle{
+    text-align: center;
+}
+
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.inputs_login *{
+    margin: 0 8px;
+}
+
+.validations{
+    width: 20vw;
+    display: flex;
+    margin: 5px;
+    font-size: 0.8rem;
+    padding: 3px;
+    color: white;
+    background-color: rgb(223, 71, 89);
+    border: black 1px solid;
+}
+
+#loginSubmit{
+    margin-left: 18vw;
+}
+
+.count_alignment{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#counterTitle{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1110px) {
+    #loginCard {
+        height: 85vh;
+        width: 35vw;
+    }
+    #loginSubmit{
+        margin-left: 20vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .img_hero{
+        height: 30vh;
+        width: 19vw;
+    }
+
+    .detail_button{
+        width: 12vw;
+    }
+
+    .delete_button{
+        margin: 10px 45px 0 10px;
+    }
+
+    #powerstatsTotal *{
+        font-size: 1rem;
+    }
+
+    #titlePowerstats{
+        font-size: 1.25rem;
+    }
+
+    #loginCard {
+        height: 88vh;
+        width: 40vw;
+    }
+
+    #loginSubmit{
+        margin-left: 15vw;
+    }
+
+    .inputs_login input{
+        margin: 3px 0;
+        width: 20vw;
+    }
+
+    .validations{
+        width: 25vw;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    #loginSubmit{
+        margin-left: 22vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img_hero{
+        height: 30vh;
+        width: 25vw;
+    }
+
+    .detail_button{
+        width: 16vw;
+    }
+
+    #powerstatsTotal{
+        height: 60vh;
+    }
+
+    .powerstats_item{
+        font-size: 0.9rem;
+    }
+
+    #loginCard {
+        width: 50vw;
+    }
+
+    #loginSubmit{
+        margin-left: 12vw;
+    }
+
+    .inputs_login input{
+        margin: 3px 0;
+        width: 28vw;
+    }
+
+    .validations{
+        width: 35vw;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    #loginSubmit{
+        margin-left: 30vw;
+    }
+
+    .material-icons.xs-36 { font-size: 25px; }
+
+    #heroListContainer{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img_hero{
+        height: 35vh;
+        width: 45vw;
+    }
+
+    .detail_button{
+        width: 23vw;
+    }
+
+    #powerstatsTotal *{
+        font-size: 0.85rem;
+    }
+
+    #titlePowerstats{
+        font-size: 1.1rem;
+    }
+
+    #emptyTeam{
+        font-size: 1.1rem;
+    }
+
+    #loginCard {
+        width: 60vw;
+    }
+
+    .inputs_login input{
+        margin: 3px 0;
+        width: 28vw;
+    }
+
+    .validations{
+        width: 38vw;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    #brand{
+        height: 2vh;
+        width: 3vw;
+    }
+
+    #powerstatsTotal{
+        height: 85vh;
+    }
+
+    #textDetail *{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .img_hero{
+        height: 35vh;
+        width: 60vw;
+    }
+
+    .card_search{
+        margin: 0 20px;
+    }
+
+    .detail_button{
+        width: 40vw;
+    }
+
+    #powerstatsTotal{
+        height: 80vh;
+    }
+
+    .home_hero_card{
+        margin: 0 10px;
+    }
+
+    #emptyTeam{
+        font-size: 1rem;
+        width: 70vw;
+        text-align: left;
+    }
+
+    h1{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    #loginCard {
+        height: 90vh;
+    }
+    
+    #loginText{
+        font-size: 0.8rem;
+    }
+
+    .inputs_login input{
+        margin: 3px 0;
+        width: 45vw;
+    }
+
+    .inputs_login input, .inputs_login label{
+        font-size: 0.9rem;
+    }
+
+    .validations{
+        width: 35vw;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    #loginSubmit{
+        margin-left: 14vw;
+    }
+
+    #homeIcon{
+        margin-top: 14px;
+        margin-bottom: -5px;
+    }
+
+    #navBar{
+        height: 14vh;
+    }
+
+    #searchBox *{
+        height: 50%;
+        font-size: 0.85rem;
+    }
+
+    #searchBox input{
+        width: 80%;
+    }
+
+    #logoutButton{
+        height: 5.5vh;
+        width: 40px;
+    }
+
+    #powerstatsTotal{
+        height: 100vh;
+    }
+
+}
